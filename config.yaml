@@ -1,0 +1,40 @@
+baseURL: https://pietermaene.be
+title: Pieter Maene
+theme: hermit
+
+author:
+  name: Pieter Maene
+
+enableEmoji: true
+pygmentsCodefences: true
+pygmentsUseClasses: true
+rssLimit: 10
+
+params:
+  themeColor: "#494f5c"
+
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 02-01-2006
+  dateformNumTime: 02-01-2006 15:04 MST
+
+  code_copy_button: true
+  justifyContent: true
+  relatedPosts: false
+
+  customCSS:
+    - css/utility.css
+
+  social:
+    - name: github
+      url: https://github.com/pmaene
+    - name: linkedin
+      url: https://linkedin.com/in/pmaene
+    - name: twitter
+      url: https://twitter.com/pmaene
+
+menu:
+  main:
+    - name: About
+      url: about/
+      weighth: 100
